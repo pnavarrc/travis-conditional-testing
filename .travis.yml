@@ -6,8 +6,5 @@ cache:
   directories:
   - node_modules
 script:
-  - npm run test-backend
-  - |
-     if [ `git diff --name-only "$TRAVIS_COMMIT_RANGE" | grep '^frontend/'` ]; then
-      npm run test-frontend
-     fi
+  - .travis/test-frontend.sh
+  - .travis/test-backend.sh
