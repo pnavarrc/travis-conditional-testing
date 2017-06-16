@@ -4,19 +4,21 @@
   "description": "How to configure Travis to run tests for the part of the code with changes",
   "main": "index.js",
   "dependencies": {
+    "mocha": "^3.4.2",
     "ramda": "^0.24.1"
   },
   "devDependencies": {},
   "scripts": {
-    "test-frontend": "npm ./node_modules/.bin/mocha frontend/",
-    "test-backend": "npm ./node_modules/.bin/mocha backend/"
+    "test-frontend": "./node_modules/.bin/mocha frontend/",
+    "test-backend": "./node_modules/.bin/mocha backend/"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/pnavarrc/travis-conditional-testing.git"
   },
   "keywords": [
-    "travis-ci"
+    "travis-ci",
+    "test"
   ],
   "author": "Pablo Navarro Castillo <pnavarrc@gmail.com>",
   "license": "MIT",
