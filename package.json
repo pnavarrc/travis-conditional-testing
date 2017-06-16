@@ -4,6 +4,7 @@
   "description": "How to configure Travis to run tests for the part of the code with changes",
   "main": "index.js",
   "dependencies": {
+    "mocha": "^3.4.2",
     "ramda": "^0.24.1"
   },
   "devDependencies": {},
@@ -16,7 +17,8 @@
     "url": "git+https://github.com/pnavarrc/travis-conditional-testing.git"
   },
   "keywords": [
-    "travis-ci", "test"
+    "travis-ci",
+    "test"
   ],
   "author": "Pablo Navarro Castillo <pnavarrc@gmail.com>",
   "license": "MIT",
