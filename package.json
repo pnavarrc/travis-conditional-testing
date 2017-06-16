@@ -16,7 +16,7 @@
     "url": "git+https://github.com/pnavarrc/travis-conditional-testing.git"
   },
   "keywords": [
-    "travis-ci"
+    "travis-ci", "test"
   ],
   "author": "Pablo Navarro Castillo <pnavarrc@gmail.com>",
   "license": "MIT",
