@@ -1,3 +1,3 @@
 var R = require('ramda');
 
-exports.inc = R.dec;
+exports.inc = R.inc;
