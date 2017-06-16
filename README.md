@@ -1,2 +1,3 @@
 # travis-conditional-testing
-Demo of how to run tests for the parts of the project that changed
+
+How to configure Travis to only run the tests for the part of the code that changed
