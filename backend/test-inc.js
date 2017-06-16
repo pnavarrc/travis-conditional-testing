@@ -11,4 +11,8 @@ describe('backend - inc', function() {
     assert.equal(1, inc(0));
   });
 
+  it('should increment 4 to 5', function() {
+    assert.equal(5, inc(4));
+  });
+
 });
