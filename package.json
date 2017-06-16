@@ -8,8 +8,8 @@
   },
   "devDependencies": {},
   "scripts": {
-    "test-frontend": "npm ./node_modules/.bin/mocha frontend/",
-    "test-backend": "npm ./node_modules/.bin/mocha backend/"
+    "test-frontend": "./node_modules/.bin/mocha frontend/",
+    "test-backend": "./node_modules/.bin/mocha backend/"
   },
   "repository": {
     "type": "git",
